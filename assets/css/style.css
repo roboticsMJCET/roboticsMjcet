@@ -11,8 +11,19 @@ a:hover {
   text-decoration: none;
 }
 
-.here {
+.here:link, .here:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid #124559;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.here:hover, .here:active {
   background-color: #124559;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
