@@ -15,6 +15,7 @@ a:hover {
   background-color: white;
   color: black;
   border: 2px solid #124559;
+  border-radius: 25px;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
@@ -24,6 +25,7 @@ a:hover {
 .here:hover, .here:active {
   background-color: #124559;
   color: white;
+  border-radius: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
